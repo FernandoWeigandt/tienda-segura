@@ -11,3 +11,7 @@ app.get("/calcular", (req, res) => {
   res.json({ resultado });
 });
 module.exports = { app, total };
+// Reto 3 (ZAP): arranca el servidor solo al ejecutar `node app.js`, no al importar en el test
+if (require.main === module) {
+  app.listen(3000);
+}
