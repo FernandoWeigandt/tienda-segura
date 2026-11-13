@@ -122,3 +122,4 @@ En un proyecto real conviene fijar una versión de Trivy en lugar de `latest`.
 - **Error de YAML**: usá solo espacios, nunca tabulaciones.
 - **Gitleaks pide licencia**: pasa si el repo es de una organización; usá repo personal.
 - **Semgrep no detecta `eval`**: probá `--config p/javascript` en vez de `--config auto`.
+
